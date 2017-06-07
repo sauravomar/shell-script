@@ -1,0 +1,31 @@
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/saurav/workspace/rta/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://952.fwk23218037:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://952.fwk23218037:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+No bp log location saved, using default.
+[000:000] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:000] Computer model: Not available
+[000:000] Browser XEmbed support present: 1
+[000:000] Browser toolkit is Gtk2.
+[000:003] Using Gtk2 toolkit
+No bp log location saved, using default.
+[000:000] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:000] Computer model: Not available
+[000:013] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:013] No bp log location saved, using default.
+[000:013] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:014] Computer model: Not available
+[000:014] Browser XEmbed support present: 1
+[000:014] Browser toolkit is Gtk2.
+[000:014] Using Gtk2 toolkit
+[000:008] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:008] No bp log location saved, using default.
+[000:009] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:009] Computer model: Not available
+
+(eclipse:4680): Gdk-WARNING **: eclipse: Fatal IO error 0 (Success) on X server :0.
+
