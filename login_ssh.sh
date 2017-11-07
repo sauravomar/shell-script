@@ -10,3 +10,4 @@ alias rta_middlemanager="ssh -i ~/ssh-keys/mediaiq-emr.pem ubuntu@54.166.210.171
 alias aiq="ssh -i ~/ssh-keys/mediaiq-emr.pem mediaiq@23.21.238.167";
 alias rta_dev="ssh -i ~/ssh-keys/mediaiq-emr.pem ubuntu@34.203.229.241"
 alias jenkins="ssh -i ~/ssh-keys/mediaiq-emr.pem jenkins@54.175.196.167"
+alias dpi-manager='ssh -i ~/ssh-keys/mediaiq-emr.pem root@dpi-manager.mediaiqdigital.com'

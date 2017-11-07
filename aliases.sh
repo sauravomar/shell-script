@@ -21,7 +21,8 @@ alias ,,,,="cd ../../../../"
 alias ,,,,,="cd ../../../../../"
 alias ,,,,,,="cd ../../../../../../../"
 alias tomcat="cd /home/saurav/deployment/apache-tomcat-8.0.21/webapps"
-alias ms="mysql -u root -proot rta"
+alias ms="mysql -u root -proot dpim"
+alias msdpim="mysql -u root -proot dpim"
 alias ws="cd /home/$USER/workspace/"
 alias dep="cd /home/$USER/deployment"
 alias scripts="cd /home/saurav/scripts"
@@ -44,4 +45,11 @@ alias open_eclipse="nohup /home/saurav/Downloads/Softwares/eclipse/eclipse  &";
 #----------------------------------
 
 . explain.sh
+
+#Git utility
+parse_git_branch() {
+	git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+
 

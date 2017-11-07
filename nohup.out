@@ -29,3 +29,277 @@ No bp log location saved, using default.
 
 (eclipse:4680): Gdk-WARNING **: eclipse: Fatal IO error 0 (Success) on X server :0.
 
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/saurav/workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://952.fwk677926378:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://952.fwk677926378:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+No bp log location saved, using default.
+[000:000] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:000] Computer model: Not available
+[000:000] Browser XEmbed support present: 1
+[000:000] Browser toolkit is Gtk2.
+[000:002] Using Gtk2 toolkit
+No bp log location saved, using default.
+[000:000] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:000] Computer model: Not available
+[000:010] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:010] No bp log location saved, using default.
+[000:011] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:011] Computer model: Not available
+[000:011] Browser XEmbed support present: 1
+[000:011] Browser toolkit is Gtk2.
+[000:011] Using Gtk2 toolkit
+[000:008] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:008] No bp log location saved, using default.
+[000:008] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:009] Computer model: Not available
+
+(eclipse:8880): Gdk-WARNING **: eclipse: Fatal IO error 0 (Success) on X server :0.
+
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/saurav/workspace/activation/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://952.fwk817833695:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://952.fwk817833695:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+No bp log location saved, using default.
+[000:000] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:001] Computer model: Not available
+[000:001] Browser XEmbed support present: 1
+[000:001] Browser toolkit is Gtk2.
+[000:003] Using Gtk2 toolkit
+No bp log location saved, using default.
+[000:000] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:000] Computer model: Not available
+[000:010] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:010] No bp log location saved, using default.
+[000:011] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:011] Computer model: Not available
+[000:011] Browser XEmbed support present: 1
+[000:011] Browser toolkit is Gtk2.
+[000:011] Using Gtk2 toolkit
+[000:007] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:007] No bp log location saved, using default.
+[000:011] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:011] Computer model: Not available
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/saurav/workspace/activation/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml
+org.eclipse.m2e.logback.configuration: Initializing logback
+15:24:56,996 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+15:24:56,996 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+15:24:56,996 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]
+15:24:56,997 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Setting up default configuration.
+15:24:57,070 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+15:24:57,074 |-INFO in ReconfigureOnChangeFilter{invocationCounter=0} - Will scan for changes in [[/home/saurav/workspace/activation/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml]] every 60 seconds. 
+15:24:57,074 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+15:24:57,079 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:24:57,079 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+15:24:57,114 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+15:24:57,115 |-ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [ch.qos.logback.core.rolling.RollingFileAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type ch.qos.logback.core.rolling.RollingFileAppender
+	at ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type ch.qos.logback.core.rolling.RollingFileAppender
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:73)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:48)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:35)
+	at 	at ch.qos.logback.core.joran.action.AppenderAction.begin(AppenderAction.java:54)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:275)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:147)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:129)
+	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:149)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:135)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:99)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:49)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:185)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at 	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at 	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.ClassNotFoundException: ch.qos.logback.core.rolling.RollingFileAppender cannot be found by ch.qos.logback.classic_1.1.2.v20160208-0839
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:60)
+	at 	... 17 common frames omitted
+15:24:57,115 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@11:81 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type ch.qos.logback.core.rolling.RollingFileAppender
+	at ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type ch.qos.logback.core.rolling.RollingFileAppender
+	at 	at ch.qos.logback.core.joran.action.AppenderAction.begin(AppenderAction.java:82)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:275)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:147)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:129)
+	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:149)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:135)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:99)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:49)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:185)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at 	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at 	at java.util.TimerThread.run(Timer.java:505)
+Caused by: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type ch.qos.logback.core.rolling.RollingFileAppender
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:73)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:48)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:35)
+	at 	at ch.qos.logback.core.joran.action.AppenderAction.begin(AppenderAction.java:54)
+	at 	... 14 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ch.qos.logback.core.rolling.RollingFileAppender cannot be found by ch.qos.logback.classic_1.1.2.v20160208-0839
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:60)
+	at 	... 17 common frames omitted
+15:24:57,115 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [org.eclipse.m2e.logback.appender.EclipseLogAppender]
+15:24:57,116 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [EclipseLog]
+15:24:57,117 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [org.eclipse.m2e.logback.appender.MavenConsoleAppender]
+15:24:57,118 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [MavenConsoleLog]
+15:24:57,118 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+15:24:57,118 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [FILE]. Did you define it below instead of above in the configuration file?
+15:24:57,118 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+15:24:57,118 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+15:24:57,118 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [EclipseLog] to Logger[ROOT]
+15:24:57,118 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [MavenConsoleLog] to Logger[ROOT]
+15:24:57,118 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.ning.http.client] to INFO
+15:24:57,118 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:24:57,119 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7496a42d - Registering current configuration as safe fallback point
+
+No bp log location saved, using default.
+[000:000] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:000] Computer model: Not available
+[000:000] Browser XEmbed support present: 1
+[000:000] Browser toolkit is Gtk2.
+[000:001] Using Gtk2 toolkit
+No bp log location saved, using default.
+[000:000] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:000] Computer model: Not available
+[000:003] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:003] No bp log location saved, using default.
+[000:004] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:004] Computer model: Not available
+[000:004] Browser XEmbed support present: 1
+[000:004] Browser toolkit is Gtk2.
+[000:004] Using Gtk2 toolkit
+[000:002] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:002] No bp log location saved, using default.
+[000:002] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:002] Computer model: Not available
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+org.eclipse.m2e.logback.configuration: Logback config file: /home/saurav/workspace/activation/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml
+org.eclipse.m2e.logback.configuration: Initializing logback
+15:04:47,398 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+15:04:47,398 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+15:04:47,398 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]
+15:04:47,399 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Setting up default configuration.
+15:04:47,491 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+15:04:47,497 |-INFO in ReconfigureOnChangeFilter{invocationCounter=0} - Will scan for changes in [[/home/saurav/workspace/activation/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml]] every 60 seconds. 
+15:04:47,497 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Adding ReconfigureOnChangeFilter as a turbo filter
+15:04:47,513 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:04:47,513 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+15:04:47,544 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+15:04:47,545 |-ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [ch.qos.logback.core.rolling.RollingFileAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type ch.qos.logback.core.rolling.RollingFileAppender
+	at ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type ch.qos.logback.core.rolling.RollingFileAppender
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:73)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:48)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:35)
+	at 	at ch.qos.logback.core.joran.action.AppenderAction.begin(AppenderAction.java:54)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:275)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:147)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:129)
+	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:149)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:135)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:99)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:49)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:185)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at 	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at 	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.lang.ClassNotFoundException: ch.qos.logback.core.rolling.RollingFileAppender cannot be found by ch.qos.logback.classic_1.1.2.v20160208-0839
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:60)
+	at 	... 17 common frames omitted
+15:04:47,545 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@11:81 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type ch.qos.logback.core.rolling.RollingFileAppender
+	at ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type ch.qos.logback.core.rolling.RollingFileAppender
+	at 	at ch.qos.logback.core.joran.action.AppenderAction.begin(AppenderAction.java:82)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:275)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:147)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:129)
+	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:149)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:135)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:99)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:49)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:185)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at 	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at 	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at 	at java.util.TimerThread.run(Timer.java:505)
+Caused by: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type ch.qos.logback.core.rolling.RollingFileAppender
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:73)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:48)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassName(OptionHelper.java:35)
+	at 	at ch.qos.logback.core.joran.action.AppenderAction.begin(AppenderAction.java:54)
+	at 	... 14 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ch.qos.logback.core.rolling.RollingFileAppender cannot be found by ch.qos.logback.classic_1.1.2.v20160208-0839
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at 	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at 	at ch.qos.logback.core.util.OptionHelper.instantiateByClassNameAndParameter(OptionHelper.java:60)
+	at 	... 17 common frames omitted
+15:04:47,545 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [org.eclipse.m2e.logback.appender.EclipseLogAppender]
+15:04:47,546 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [EclipseLog]
+15:04:47,547 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [org.eclipse.m2e.logback.appender.MavenConsoleAppender]
+15:04:47,548 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [MavenConsoleLog]
+15:04:47,548 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+15:04:47,548 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [FILE]. Did you define it below instead of above in the configuration file?
+15:04:47,548 |-ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+15:04:47,548 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+15:04:47,548 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [EclipseLog] to Logger[ROOT]
+15:04:47,548 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [MavenConsoleLog] to Logger[ROOT]
+15:04:47,549 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.ning.http.client] to INFO
+15:04:47,549 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:04:47,549 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@4a45e686 - Registering current configuration as safe fallback point
+
+No bp log location saved, using default.
+[000:000] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:000] Computer model: Not available
+[000:000] Browser XEmbed support present: 1
+[000:000] Browser toolkit is Gtk2.
+[000:002] Using Gtk2 toolkit
+No bp log location saved, using default.
+[000:000] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:000] Computer model: Not available
+[000:005] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:005] No bp log location saved, using default.
+[000:005] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:005] Computer model: Not available
+[000:005] Browser XEmbed support present: 1
+[000:005] Browser toolkit is Gtk2.
+[000:006] Using Gtk2 toolkit
+[000:003] Warning(optionsfile.cc:30): Load: Could not open file, err=2
+[000:003] No bp log location saved, using default.
+[000:003] Cpu: 6.61.4, x4, 2601Mhz, 15937MB
+[000:003] Computer model: Not available
