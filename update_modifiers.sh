@@ -49,7 +49,6 @@ _upload_s3_obj="ias_fraud_ip_feed/year=$_year/month=$_month/day=$_day/";
 _dpi_url="http://dpi-staging.mediaiqdigital.com/svc/act/v1.0.0/activation/";
 
 #-------------------AUTH TOKEN--------------------
-_auth_token="Bearer eyJhbGciOiJSUzI1NiJ9.eyJleHAiOjE3NDA5OTU5NjksInNjb3BlIjpbIk5BIl0sImF1ZCI6WyJkcGktbWFuYWdlciJdLCJqdGkiOiI4YjJjYzgzOS1hYjkyLTQ4MDUtOWNkNy02MTM2MGMxZWU4ZjgiLCJjbGllbnRfaWQiOiJkcGktbWFuYWdlci1jbGllbnQifQ.RqKc4GNTsMV1URxB_EQwTcCiVEb-aq9ePgaMRUEs0sQ_NE0dbf151dk6LikBlV7ZBfv0rBTi0Ah6ZQzrr7RYz_75-k0C9NCA_zNu77FwicM4Uohj484nqbM5tHHM1o6HYj0I1ek3A_dlONdgfr7S0XG-XaYJoNyyKrIi17hoEPC080eZM-_HcJOXEHcQiMQXJzbfZ6XPli4GIonMgOhVd2il8SsB4-4hFmRdmBJVM75APCL80Ym3uNPQq8PL5vzPm3UgyAsVhxjcHfE_RLDWd0tzV3rFwPFhEIvXkaSDp8GtkgJ_3XWBdTJMQWk0GXWSWgBLCUBDR3irY6eTouBMYA" 
 
 #-----_CURL FORMAT TO PRINT ALL TIME TOOK WHILE CALLING------------------
 _curl_format="  time_namelookup:  %{time_namelookup}\n
