@@ -20,20 +20,21 @@
 set -o nounset                              # Treat unset variables as an error
 
 _USAGE(){
-	echo "Usage:  `basename $0` {folder contains DockerFile} {repoName} {tagname}";
+	echo "Usage:  `basename $0` {folder contains DockerFile} {repoName} {tagname} {profile}";
 
 }
 
-[ $# -ne 3 ] && _USAGE && exit 1;
+[ $# -ne 4 ] && _USAGE && exit 1;
 
 _folder=$1;
 _repo_name=$2;
 _tag_name=$3
+_profile=$4
 
 #-------------check docker file is present-----------------------
 [ ! -f ${_folder}/Dockerfile ]  && echo "** Docker File is not present  ${_folder} **" && exit 1;
 
-sudo docker build -t ${_repo_name}:${_tag_name} ${_folder}
+sudo docker build -t ${_repo_name}:${_tag_name} ${_folder}  --build-arg profile=$_profile  --build-arg token=NDc5OWEyYzdmMzA1
 
 #---- check for docker build success full ------------
 [ "$?" -ne  0 ] &&  echo "** Docker build failed ** "  && exit 1;

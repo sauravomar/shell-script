@@ -1,0 +1,19 @@
+import sys;
+import os;
+
+def listDir():
+    total_size=0;
+    for root, dirs, files in os.walk("/home/saurav/logs/"):
+        for fil in files:
+            fp = os.path.join(dirs, fil)
+            total_size += os.path.getsize(fp)
+            print total_size
+            print fil
+
+def main():
+    listDir();
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+

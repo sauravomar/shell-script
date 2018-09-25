@@ -6,45 +6,44 @@
 #---------Variables----------
 #----------------------------
 
-USER=`who | cut -d ' ' -f1 | head -1`
+USER="MIQDIGITAL/"`who | cut -d ' ' -f1 | head -1`
 
 
 #----------------------------
 #-----Aliases----------------
 #-----------------------------
-
-
 alias ,="cd .."
 alias ,,="cd ../../"
 alias ,,,="cd ../../../"
 alias ,,,,="cd ../../../../"
 alias ,,,,,="cd ../../../../../"
 alias ,,,,,,="cd ../../../../../../../"
-alias tomcat="cd /home/saurav/deployment/apache-tomcat-8.0.21/webapps"
 alias ms="mysql -u root -proot dpim"
-alias msdpim="mysql -u root -proot dpim"
 alias ws="cd /home/$USER/workspace/"
 alias dep="cd /home/$USER/deployment"
 alias scripts="cd /home/saurav/scripts"
-alias svnst="svn status" 
-alias gt="git status" 
-alias diff="git diff"
-alias build=" mvn clean  install -P t8" 
-alias clearLogs="rm -f ${cATALINA_HOME}/logs/*"
+alias gt="git status " 
+alias diff="git diff "
+alias build=" mvn clean  install" 
 alias monitor=". monitor.sh" 
 alias fuck='eval $(thefuck $(fc -ln -1)); history -r'
 # You can use whatever you want as an alias, like for Mondays:
-alias FUCK='fuck'
 alias start_mongo="sudo mongod --dbpath /home/saurav/data/db --port 27017";
 alias topUsage="ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head";
 alias topProcess="top -b -o +%MEM | head -n 22"
 alias topUsageDir="du -hsx * | sort -rh | head -6"
-alias open_eclipse="nohup /home/saurav/Downloads/Softwares/eclipse/eclipse  &";
+alias open_eclipse="nohup /home/MIQDIGITAL/sauravomar/Downloads/Softwares/eclipse/eclipse  &";
+alias dpim=" mysql -h dpi.cmfydxrklw15.us-east-1.rds.amazonaws.com -P 3306  -ubidder  -pQIU1psosSDFSo567 dpim";
+alias segsvc=" mysql -h dpi.cmfydxrklw15.us-east-1.rds.amazonaws.com -P 3306  -useg_svc  -pQIU1psosSDFSo567 segmentservice";
+alias apd=" ssh -i ~/ssh-keys/mediaiq-emr.pem ubuntu@apd.activation.mediaiqdigital.com";
+alias apd-staging="ssh -i ~/ssh-keys/mediaiq-emr.pem root@apd-staging.mediaiqdigital.com";
+alias apd_prod_db="mysql -h activation-apd.cmfydxrklw15.us-east-1.rds.amazonaws.com -P 3306  -uapduser  -pAURzS#t4qL6\\&?yGE apd";
+alias branch="git rev-parse --abbrev-ref HEAD";
 #----------------------------------
 #---------execute scripts----------
 #----------------------------------
 
-. explain.sh
+. commands.sh
 
 #Git utility
 parse_git_branch() {
