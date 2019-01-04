@@ -1447,3 +1447,7 @@ org.eclipse.m2e.logback.configuration: Initializing logback
 (Eclipse:506): Gtk-CRITICAL **: 21:39:15.421: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
 
 (Eclipse:506): Gtk-CRITICAL **: 21:48:11.027: gtk_box_gadget_distribute: assertion 'size >= 0' failed in GtkScrollbar
+Error opening zip file or JAR manifest missing : /home/saurav/eclipse/jee-2018-09/eclipse/lombok.jar
+Error occurred during initialization of VM
+agent library failed to init: instrument
+Gtk-Message: 12:06:41.878: GtkDialog mapped without a transient parent. This is discouraged.

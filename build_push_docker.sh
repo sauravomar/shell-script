@@ -30,7 +30,7 @@ _folder=$1;
 _repo_name=$2;
 _tag_name=$3
 _profile=$4
-
+_ecr_url="739562352557.dkr.ecr.us-east-2.amazonaws.com";
 #-------------check docker file is present-----------------------
 [ ! -f ${_folder}/Dockerfile ]  && echo "** Docker File is not present  ${_folder} **" && exit 1;
 
@@ -40,15 +40,15 @@ sudo docker build -t ${_repo_name}:${_tag_name} ${_folder}  --build-arg profile=
 [ "$?" -ne  0 ] &&  echo "** Docker build failed ** "  && exit 1;
 
 #----------------login to aws ecs-----------------------
-sudo `aws ecr get-login --region us-east-1 | sed -e "s/-e none//"`
+sudo `aws ecr get-login --region us-east-2 | sed -e "s/-e none//"`
 [ $? -ne 0 ] && echo "Invalid Credentials Please check ${HOME}/.aws/credentials " && exit 1;
 
 #--------Tag Docker image -----------------------------
-sudo docker tag ${_repo_name}:${_tag_name} 230367374156.dkr.ecr.us-east-1.amazonaws.com/${_repo_name}:${_tag_name};
+sudo docker tag ${_repo_name}:${_tag_name} ${_ecr_url}/${_repo_name}:${_tag_name};
 
 
 #--------Push Docker image to ecs------------------------------
-sudo docker push 230367374156.dkr.ecr.us-east-1.amazonaws.com/${_repo_name}:${_tag_name};
+sudo docker push ${_ecr_url}/${_repo_name}:${_tag_name};
 
 
 #---- check for docker push success ------------
