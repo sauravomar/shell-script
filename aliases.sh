@@ -18,9 +18,8 @@ alias ,,,="cd ../../../"
 alias ,,,,="cd ../../../../"
 alias ,,,,,="cd ../../../../../"
 alias ,,,,,,="cd ../../../../../../../"
-alias ms="mysql -u root -proot dpim"
-alias ws="cd /home/$USER/workspace/"
-alias dep="cd /home/$USER/deployment"
+alias ms="mysql -u root -proot"
+alias ws="cd ~/workspace/"
 alias scripts="cd /home/saurav/scripts"
 alias gt="git status " 
 alias diff="git diff "
@@ -39,6 +38,12 @@ alias apd=" ssh -i ~/ssh-keys/mediaiq-emr.pem ubuntu@apd.activation.mediaiqdigit
 alias apd-staging="ssh -i ~/ssh-keys/mediaiq-emr.pem root@apd-staging.mediaiqdigital.com";
 alias apd_prod_db="mysql -h activation-apd.cmfydxrklw15.us-east-1.rds.amazonaws.com -P 3306  -uapduser  -pAURzS#t4qL6\\&?yGE apd";
 alias branch="git rev-parse --abbrev-ref HEAD";
+alias httpError='cat requests.log  | grep "HTTP/1\.[01]\" 5.." > temp.txt';
+alias goto_iaas='ssh 10.34.233.61'
+alias goto_ssm_ops="ssh ssm@10.32.110.122"
+alias goto_hercules="ssh ssm@10.32.38.40"
+alias subl="open -a /Applications/Sublime\ Text\ 2.app/" 
+alias git_log="git log --graph --abbrev-commit --decorate --date=format:'%Y-%m-%d %H:%M:%S' --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%ad%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'";
 #----------------------------------
 #---------execute scripts----------
 #----------------------------------
@@ -51,4 +56,4 @@ parse_git_branch() {
 }
 export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 
-
+ssh-add ~/ssh-keys/*

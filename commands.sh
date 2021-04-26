@@ -20,7 +20,11 @@
 alias open_tcp_ports="ss -t -a";
 
 conn(){
- ss -tn sport = :$1
+	ss -tn sport = :$1
 }
 
+gradle_dep (){
+	./gradlew dependencyInsight --configuration compile --dependency  $1
+}
 
+. login.sh
